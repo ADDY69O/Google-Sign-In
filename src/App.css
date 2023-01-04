@@ -1,0 +1,52 @@
+      .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 5rem;
+        gap: 1rem;
+        
+        
+      }
+      img{
+        border-radius: 50%;
+        margin-left: 4.4rem;
+      }
+
+      .login{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: 0.2px solid white;
+        width: 25vw;
+        height: 30vw;
+      }
+      button{
+        height: 5vh;
+        width: 7vw;
+        font-size: 1.2rem;
+        color: white;
+        background-color: #0f70e6;
+        border:none;
+        border-radius: 12px;
+        cursor: pointer;
+      }
+
+      *{
+        background-color:#031e45 ;
+        color: white;
+      }
+      @media screen and (max-width: 480px) {
+     
+      .login{
+        width: 90vw;
+        height: 66vh;
+      }
+      .h{
+        font-size: 1.7rem;
+      }
+      button{
+        width: 45vw;
+      }
+      }
